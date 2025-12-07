@@ -1,3 +1,12 @@
+"""
+Project: Smart Water Management System (Simulation)
+Author: Corneliu Jonathan
+Date: 2024
+Description: 
+    This script simulates the IoT firmware logic. It generates mock sensor data 
+    (pH & Turbidity), validates it against safety thresholds, and simulates 
+    cloud data transmission.
+"""
 import time
 import random
 
@@ -59,4 +68,5 @@ try:
         time.sleep(3)
 
 except KeyboardInterrupt:
+
     print("\nSystem Stopped by User.")
